@@ -1,0 +1,30 @@
+
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-primary" style="background-color: #e3f2fd;">
+            <a class="navbar-brand" href="index.html">Home</a>
+          </nav>
+        <div class="container">
+            <br>
+            <h1>Login Page</h1>
+            <form action="ValidateServlet" method="post">
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" name="email" class="form-control" id="email" aria-describedby="email" placeholder="Enter email">
+              <small id="email"  class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="pass" name="pass" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button> <a href="forgot.html"><button type="button" class="btn btn-warning">Forgot Password</button></a>
+         </form>
+        </div>
+    </body>
+</html>
